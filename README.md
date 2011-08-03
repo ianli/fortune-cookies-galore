@@ -8,6 +8,13 @@ This is a collection of fortune cookie quotes that I have compiled from various 
 
 The code in `script/` helps filter out unique and similar lines.
 
+Projects
+--------
+
+Projects using quotes from this collection:
+
+* [Fortune Cookies Galore!](http://www.fortunecookiesgalore.com)
+
 Sources
 -------
 
