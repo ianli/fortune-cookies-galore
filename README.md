@@ -1,6 +1,13 @@
 Fortune Cookies Galore!
 =======================
 
+This is a collection of fortune cookie quotes that I have compiled from various sources around the Internet.
+
+* `fortunes.txt` contains unique quotes from all the quotes in the `sources/` directory.
+* `sources/` contains files with quotes from various locations in the Internet.
+
+The code in `script/` helps filter out unique and similar lines.
+
 Sources
 -------
 
