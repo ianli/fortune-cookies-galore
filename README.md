@@ -19,6 +19,8 @@ Sources
 * http://joshmadison.com/article/fortune-cookie-fortunes/
 * http://twitter.com/fortunes140
 * http://wackowiki.com/RobertVaeth/Fortunes
+* http://www.yourdictionary.com/grammar/quotes/funny-fortune-cookie-sayings.html
+* http://www.quotes-galore.com/2index.html
 
 ### TODO
 
