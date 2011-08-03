@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    amatch (0.2.6)
+      spruz (~> 0.2)
+    spruz (0.2.11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  amatch
