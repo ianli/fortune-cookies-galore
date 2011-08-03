@@ -27,9 +27,9 @@ def compare(aa, bb)
       value = a.hamming_similar(b)
       
       if value > 0.5
-        puts "%f -----" % value
-        puts "%d: %s" % [i, a]
-        puts "%d: %s" % [j, b]
+        puts "----\t%f" % value
+        puts "%d:\t%s" % [i, a]
+        puts "%d:\t%s" % [j, b]
         
         a.flagged = true
         
