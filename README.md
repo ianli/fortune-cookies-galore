@@ -18,10 +18,10 @@ Sources
 * http://www.joe-ks.com/Fortune_Cookies_In_Bed.htm
 * http://joshmadison.com/article/fortune-cookie-fortunes/
 * http://twitter.com/fortunes140
+* http://wackowiki.com/RobertVaeth/Fortunes
 
 ### TODO
 
-* http://wackowiki.com/RobertVaeth/Fortunes
 * http://fortunes.cat-v.org/plan_9/
 * http://fortunes.cat-v.org/openbsd/
 * http://polarwave.openbsd101.com/fun.html

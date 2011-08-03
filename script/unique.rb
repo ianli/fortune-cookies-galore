@@ -12,27 +12,18 @@ def unique_lines(file1, file2=nil)
 
   unique_messages.uniq!
   
-  messages = []
-  File.open(file2, "r") do |infile|
-    while (line = infile.gets)
-      messages << line unless line !~ /\S/
+  if file2
+    messages = []
+    File.open(file2, "r") do |infile|
+      while (line = infile.gets)
+        messages << line unless line !~ /\S/
+      end
     end
-  end
   
-  unique_messages = unique_messages.delete_if { |msg|
-    messages.include?(msg)
-  }
-
-  # current_messages = []
-  # File.open("background/current.txt", "r") do |infile|
-  #   while (line = infile.gets)
-  #     current_messages << line unless line !~ /\S/
-  #   end
-  # end
-  # 
-  # unique_messages = new_messages.delete_if { |msg|
-  #   current_messages.include?(msg)
-  # }
+    unique_messages = unique_messages.delete_if { |msg|
+      messages.include?(msg)
+    }
+  end
 
   puts unique_messages
 end
